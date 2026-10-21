@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fuga da Prisão</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="hud">
+    <div><small>Fase</small><b id="lv">1</b></div>
+    <div><small>Passos</small><b id="st">0</b></div>
+    <div><small>Tempo</small><b id="tm">0:00</b></div>
+    <div><small>Recorde</small><b id="bs">1</b></div>
+    <button id="rs" type="button">Reiniciar</button>
+  </div>
+
+  <div id="stage">
+    <canvas id="cv"></canvas>
+      <div id="overlay">
+        <div class="card">
+          <h2 id="ot">Fuga da Prisão</h2>
+          <p id="op">Você é um prisioneiro. Encontre a porta verde e escape. A cada fase o labirinto cresce, e a partir da fase 4 só a luz da sua tocha revela o caminho. Use as setas ou WASD.</p>
+          <button id="go" type="button">Começar</button>
+        </div>
+      </div>
+  </div>
+
+  <div id="pad">
+    <button type="button" data-k="up" aria-label="Cima">▲</button>
+    <button type="button" data-k="left" aria-label="Esquerda">◀</button>
+    <button type="button" data-k="down" aria-label="Baixo">▼</button>
+    <button type="button" data-k="right" aria-label="Direita">▶</button>
+  </div>
+
+<script src="script.js"></script>
+<footer>Em desenvolvimento</footer>
+</body>
+</html>
