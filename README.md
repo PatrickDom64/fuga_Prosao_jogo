@@ -75,3 +75,4 @@ Funciona nas versões atuais de Chrome, Edge, Firefox e Safari, no computador e 
 - Armadilhas e passagens secretas
 - Semente (*seed*) compartilhável para repetir o mesmo labirinto
 - Ranking com tempo por fase
+<img width="1900" height="912" alt="image" src="https://github.com/user-attachments/assets/44e84180-c25b-4df8-ab4e-0c68470dc967" />
